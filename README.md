@@ -63,13 +63,15 @@ iex(5)>
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+If [available in Hex](https://hex.pm/packages/gen_fsm), the package can be installed as:
 
   1. Add gen_fsm to your list of dependencies in `mix.exs`:
 
-        def deps do
-          [{:gen_fsm, "~> 0.1.0"}]
-        end
+```elixir
+  def deps do
+    [{:gen_fsm, "~> 0.1.0"}]
+  end
+```
 
 ## Documentation
 
